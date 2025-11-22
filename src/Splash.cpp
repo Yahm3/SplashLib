@@ -1,9 +1,12 @@
 #include "../include/Splash.h"
+#include "../include/scarfy_data.h"
 #include <raylib.h>
 #include <raymath.h>
 
 Splash::Splash() {
-  scarfy = LoadTexture("../assets/scarfy.png");
+  Image image = LoadImageFromMemory(".png", SCARFY_PNG, SCARFY_PNG_LEN);
+  Texture2D texture = LoadTextureFromImage(image);
+  scarfy = texture;
   int w = GetScreenWidth();
   int PADDING = w / 8;
   int base = PADDING;
