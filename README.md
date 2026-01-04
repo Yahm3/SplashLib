@@ -27,7 +27,7 @@ Every great game needs a welcoming introduction. Splashlib provides a straightfo
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/INNOCENT-ops806/Splashlib.git
+   git clone https://github.com/Yahm3/Splashlib.git
    cd Splashlib
    ```
 
